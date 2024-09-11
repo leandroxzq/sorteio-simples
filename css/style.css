@@ -23,7 +23,7 @@ body {
 }
 @media (max-width: 440px) {
   .main {
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     text-align: center;
   }
@@ -34,6 +34,7 @@ body {
   background-clip: text;
   color: transparent;
   font-weight: bold;
+  margin: 0;
 }
 .main .form {
   display: flex;
@@ -75,8 +76,14 @@ body {
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
+  text-align: center;
   text-shadow: 1px 1px black;
   letter-spacing: 10px;
+}
+@media (max-width: 440px) {
+  .main .form__button {
+    width: 90%;
+  }
 }
 .main .form__button:hover {
   cursor: pointer;
