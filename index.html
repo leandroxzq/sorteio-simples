@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Números</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="9459d1f477fa78c1fc20278ad7059e78.jpg" type="image/x-icon">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1 class="main__title">Sorteio de Números</h1>
+        <form class="form" id="form">
+            <h2 class="form__subtitle">Digite o intervalo de numeros:</h2>
+            <div class="form__wrapper">
+                <label for="min" class="form__label">Mínimo:</label>
+                <input type="number" class="form__input" id="min" required>
+            </div>
+            <div class="form__wrapper">
+                <label for="max" class="form__label">Máximo:</label>
+                <input type="number" class="form__input" id="max" required>
+            </div>
+            <p id="demo" class="form__result"></p>
+            <button type="submit" class="form__button">Sortear</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p class="footer__text">Desenvolvido por Leandroxzq &#169;</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
